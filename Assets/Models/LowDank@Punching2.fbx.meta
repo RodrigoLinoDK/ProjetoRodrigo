@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 634fbf71d37ae8a409209c21d63184bb
+guid: 7874b12e409ba854da379fab8220b432
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -31,7 +31,7 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Jumping
+      name: Punching2
       takeName: mixamo.com
       internalID: -203655887218126122
       firstFrame: 0
@@ -54,7 +54,14 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events: []
+      events:
+      - time: 0.49358216
+        functionName: DoDamage
+        data: LightAttackHit()
+        objectReferenceParameter: {fileID: 11500000, guid: 1b1de215c0e066c488fff8a862e5e02d, type: 3}
+        floatParameter: 0
+        intParameter: 10
+        messageOptions: 0
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
